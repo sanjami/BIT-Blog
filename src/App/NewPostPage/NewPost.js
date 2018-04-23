@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import { Redirect } from 'react-router';
 import { newPostService } from '../../Services/dataService';
 
@@ -46,9 +45,9 @@ class NewPost extends React.Component {
             </label>
             <label>
                 Content:
-                <textarea value={this.state.contentValue} onChange={this.handleContentChange} />
+                <textarea value={this.state.contentValue} onChange={this.handleContentChange} rows=""/>
             </label>
-            <input type="submit" value="Save" />
+            <input type="submit" value="Save" id="btn" />
             <input type="button" value="Cancel"  onClick={this.handleCancel}/>
           </form>
           {fireRedirect && (

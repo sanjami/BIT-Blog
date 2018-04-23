@@ -4,12 +4,14 @@ import BackButton from '../SharedComponents/BackButton';
 
 const PostContent = (props) => {
     return (
-        <div className="container center-align">
+        <React.Fragment>
         <BackButton/>
+        <div className="container center-align" id="one-post">       
             <h2>{props.post.title}</h2>
             <Link to={`/author${props.post.authorId}`}>{props.authorName}</Link>
             <p>{props.post.text}</p>
-         </div>  
+         </div>
+         </React.Fragment>  
     )
 }
 

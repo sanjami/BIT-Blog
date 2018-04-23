@@ -1,18 +1,54 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
-#titleInput {
-  border: 1px solid #9e9e9e;
+#titleInput, textarea {
+  border: 1px solid #81807f
 } */
 
-label {
-  font-size: 16px;
+
+h2 {
+ text-align: center;
+ color: #81807f
 }
 
-.collection, .with-header{
-  border: none;
+#photo-post {
+  max-height: 200px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+h4 {
+  color: #81807f
+}
+
+a {
+  color: #81807f
+}
+
+#one-post {
+  border: 1px solid #81807f;
+  margin: 50px auto;
+}
+
+#card-3 {
+  height: 350px;
+}
+
+#btn {
+  margin-top: 20px;
+  margin-right: 20px
+}
+
+form {
+  margin: 20px;
+}
+
+textarea {
+  height: 100px;
 }

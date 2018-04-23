@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutAuthor from './AboutAuthor';
-import BackButton from '../SharedComponents/BackButton';
 import { oneAuthorService } from '../../Services/dataService';
 
 
